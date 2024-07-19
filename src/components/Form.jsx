@@ -1,19 +1,19 @@
 import React from "react";
 import { PiUserBold } from "react-icons/pi";
 import { TbMail } from "react-icons/tb";
-import { VscLock } from "react-icons/vsc";
 import { FaGoogle } from "react-icons/fa";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
+import { PiLockSimpleOpenBold } from "react-icons/pi";
 
 const Form = () => {
   return (
     <div className="text-white flex justify-center flex-col p-52 h-full">
       <form className="flex flex-col">
         <div className="">
-          <h2 className="font-bold text-white text-3xl mb-3">
+          <h2 className="font-bold text-white text-3xl mb-2 ">
             Sign Up For Free.
           </h2>
-          <h3 className="mb-6 text-slate-300">
+          <h3 className="mb-7 text-slate-300 text-2xl">
             Let's sign up quickly to get started.
           </h3>
         </div>
@@ -45,10 +45,10 @@ const Form = () => {
           Password
         </label>
         <div className="flex items-center gap-2 bg-slate-900 border border-slate-500 hover:border-violet-600 border-opacity-40 rounded-full py-2 mb-3">
-          <VscLock className="text-white ml-2" />
+          <PiLockSimpleOpenBold className="text-white ml-2" />
           <input
             type="password"
-            placeholder="********"
+            placeholder="Enter your password"
             className="bg-transparent border-none outline-none flex"
           />
         </div>

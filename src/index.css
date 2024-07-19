@@ -12,11 +12,31 @@
   );
 }
 
+.cont-bg {
+  background: rgb(204, 198, 241);
+  background: linear-gradient(
+    212deg,
+    rgba(204, 198, 241, 1) 0%,
+    rgba(27, 25, 72, 1) 49%,
+    rgba(44, 39, 48, 1) 100%
+  );
+}
+
+.grad-name {
+  background-image: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
